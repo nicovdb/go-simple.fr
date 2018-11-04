@@ -1,0 +1,46 @@
+.footer {
+  background-size: cover !important;
+  background-position: bottom ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  padding: 15px 50px;
+  color: rgba(29, 26, 178, 0.7);
+  font-size: 12px;
+  position: relative;
+
+  @media (max-width: 620px) {
+    padding: 15px;
+  }
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 15px;
+  left: calc(50% - 150px);
+}
+
+.footer-copyright a {
+  color: rgba(29, 26, 178, 0.7);
+  text-decoration: none;
+}
+.footer-copyright a:hover {
+  color: rgba(29, 26, 178, 1);
+}
+.footer .fa-heart {
+  color: #D23333;
+  margin: 0 5px;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  transition: 0.5s;
+  &:hover {
+    font-size: 19px;
+    transition: 0.5s;
+  }
+}

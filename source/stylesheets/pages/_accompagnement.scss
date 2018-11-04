@@ -1,0 +1,28 @@
+.accompagnement-image {
+  max-width: 90%;
+  object-fit: cover;
+  margin: 25px auto;
+  border-radius: 2px;
+}
+
+.accompagnement-sous-partie {
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 25px;
+
+  @media (max-width: 400px) {
+    max-width: 100%
+  }
+}
+
+.accompagnement-sous-partie-first {
+  padding: 0 25px;
+
+  @media (max-width: 400px) {
+    padding: 0 8px;
+  }
+}
+
+.decalage-gauche {
+  margin: 0 0 11px 24px;
+}
