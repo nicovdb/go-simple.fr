@@ -1,7 +1,7 @@
 .accompagnement-image {
   max-width: 90%;
   object-fit: cover;
-  margin: 25px auto;
+  margin: auto auto 0;
   border-radius: 2px;
 }
 
@@ -20,6 +20,15 @@
 
   @media (max-width: 400px) {
     padding: 0 8px;
+  }
+
+  a {
+    color: rgba(29, 26, 178, 0.7);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgba(29, 26, 178, 1);
   }
 }
 
